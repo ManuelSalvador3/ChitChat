@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Interfdaces_Usuario</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="login">Login</string>
+    <string name="todo" tools:ignore="DuplicateDefinition">TODO</string>
+    <string name="usuario">Usuario</string>
+    <string name="no_tienes_cuenta_registrate_ahora">No tienes cuenta? registrate ahora!</string>
+    <string name="registrarse">Registrarse!</string>
+    <string name="nombre_de_usuario">Nombre de usuario</string>
+    <string name="introduzca_la_contrase_a">Introduzca la contraseña</string>
+    <string name="username">Username</string>
+    <string name="ajustes_de_usuario">Ajustes de Usuario</string>
+    <string name="manusalvadorg_gmail_com">manusalvadorg@gmail.com</string>
+    <string name="correo_electr_nico">Correo electrónico</string>
+    <string name="eliminar_cuenta">Eliminar Cuenta</string>
+    <string name="manuel_salvador" tools:ignore="DuplicateDefinition">Manuel Salvador</string>
+    <string name="historial_de_cambios">Historial de Cambios</string>
+    <string name="informacion_de_la_aplicacion">Informacion de la Aplicacion</string>
+    <string name="tel_fono">Teléfono</string>
+    <string name="soporte_tecnico">Soporte tecnico</string>
+    <string name="nombre_de_usuario_perfil">Nombre de Usuario</string>
+    <string name="manu_salvador" tools:ignore="DuplicateDefinition">Manuel Salvador</string>
+    <string name="cambiar_contrase_a">Cambiar contraseña</string>
+    <string name="registros_de_depuracion">Registros de Depuracion</string>
+    <string name="informaci_n_de_la_cuenta">Información de la cuenta</string>
+    <string name="deshabilitar_cuenta">Deshabilitar Cuenta</string>
+    <string name="gestion_de_cuenta">Gestion de Cuenta</string>
+    <string name="todos" tools:ignore="DuplicateDefinition">TODO</string>
+</resources>
