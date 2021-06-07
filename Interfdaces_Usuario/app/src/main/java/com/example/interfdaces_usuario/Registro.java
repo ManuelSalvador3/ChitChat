@@ -36,12 +36,12 @@ public class Registro extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if(editTextName.getText().toString().equals("") || editTextApellido.getText().toString().equals("") || editTextusername2.getText().toString().equals("") || editTextPassword2.getText().toString().equals("") ||
-                   editTextNumber.getText().toString().equals("")) {
+                        editTextNumber.getText().toString().equals("")) {
                     Toast.makeText(Registro.this, "Rellene todos los campos", Toast.LENGTH_LONG).show();
                 }
                 else{
                     Toast.makeText(Registro.this,   "Cuenta creada correctamente", Toast.LENGTH_LONG).show();
-                    Intent intent = new Intent(Registro.this, Gustos.class);
+                    Intent intent = new Intent(Registro.this, InterestSelector.class);
                     startActivity(intent);
 
                 }

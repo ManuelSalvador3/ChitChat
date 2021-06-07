@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".InterestSelector"
+    tools:showIn="@layout/activity_interest_selector">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TableRow
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <ImageButton
+                android:background="@drawable/ripple"
+                android:id="@+id/imageButton"
+                android:layout_width="157dp"
+                android:layout_height="230.33dp"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp"
+                app:srcCompat="@drawable/viajes"
+                android:scaleType="centerCrop"
+                android:layout_marginEnd="5dp"
+                android:contentDescription="@string/photography" />
+
+            <ImageButton
+                android:background="@android:color/holo_blue_light"
+                android:id="@+id/imageButton2"
+                android:layout_width="157dp"
+                android:layout_height="230.33dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/comicss"
+                android:scaleType="centerCrop"
+                android:layout_marginStart="5dp"
+                android:contentDescription="@string/comics" />
+        </TableRow>
+        <TableRow
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+            <ImageButton
+                android:background="@drawable/ripple"
+                android:id="@+id/imageButton3"
+                android:layout_width="157dp"
+                android:layout_height="230.33dp"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp"
+                app:srcCompat="@drawable/coches"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:layout_marginEnd="5dp" />
+
+            <ImageButton
+                android:background="@android:color/holo_blue_light"
+                android:id="@+id/imageButton4"
+                android:layout_width="157dp"
+                android:layout_height="230.33dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/deportess"
+                android:scaleType="centerCrop"
+                android:layout_marginStart="5dp" />
+        </TableRow>
+        <TableRow
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+
+            <ImageButton
+                android:background="@drawable/ripple"
+                android:id="@+id/imageButton5"
+                android:layout_width="157dp"
+                android:layout_height="230.33dp"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp"
+                app:srcCompat="@drawable/motos"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:layout_marginEnd="5dp" />
+
+            <ImageButton
+                android:background="@android:color/holo_blue_light"
+                android:id="@+id/imageButton6"
+                android:layout_width="157dp"
+                android:layout_height="230.33dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/anime"
+                android:scaleType="centerCrop"
+                android:layout_marginStart="5dp" />
+        </TableRow>
+        <TableRow
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+            <ImageButton
+                android:background="@drawable/ripple"
+                android:id="@+id/imageButton7"
+                android:layout_width="157dp"
+                android:layout_height="230.33dp"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp"
+                app:srcCompat="@drawable/arte"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:layout_marginEnd="5dp" />
+
+            <ImageButton
+                android:background="@android:color/holo_blue_light"
+                android:id="@+id/imageButton8"
+                android:layout_width="157dp"
+                android:layout_height="230.33dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/fotografia"
+                android:scaleType="centerCrop"
+                android:layout_marginStart="5dp" />
+        </TableRow>
+        <TableRow
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+            <ImageButton
+                android:background="@drawable/ripple"
+                android:id="@+id/imageButton9"
+                android:layout_width="157dp"
+                android:layout_height="230.33dp"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp"
+                app:srcCompat="@drawable/cocina"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:layout_marginEnd="5dp" />
+
+            <ImageButton
+                android:background="@android:color/holo_blue_light"
+                android:id="@+id/imageButton10"
+                android:layout_width="157dp"
+                android:layout_height="230.33dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/manualidades"
+                android:scaleType="centerCrop"
+                android:layout_marginStart="5dp" />
+        </TableRow>
+        <TableRow
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+            <ImageButton
+                android:background="@drawable/ripple"
+                android:id="@+id/imageButton11"
+                android:layout_width="157dp"
+                android:layout_height="230.33dp"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp"
+                app:srcCompat="@drawable/animales"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:layout_marginEnd="5dp" />
+
+            <ImageButton
+                android:background="@android:color/holo_blue_light"
+                android:id="@+id/imageButton12"
+                android:layout_width="157dp"
+                android:layout_height="230.33dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/dibujo"
+                android:scaleType="centerCrop"
+                android:layout_marginStart="5dp" />
+        </TableRow>
+    </TableLayout>
+</androidx.core.widget.NestedScrollView>

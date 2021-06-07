@@ -47,6 +47,7 @@ import android.widget.Toast;
         user = "manu";
         password = "123";
 
+
         textoCuenta.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -63,26 +64,21 @@ import android.widget.Toast;
                     Toast.makeText(MainActivity.this, "Introduce usuario y contraseña", Toast.LENGTH_LONG).show();
                 }
                 else{
-                        inputname = editTextUsername.getText().toString();
-                        inputpassword = editTextPassword.getText().toString();
+                    inputname = editTextUsername.getText().toString();
+                    inputpassword = editTextPassword.getText().toString();
 
                     if(inputname.equals("manu") && inputpassword.equals("123")) {
 
                         isValid = true;
                         Toast.makeText(MainActivity.this,   "Login correcto", Toast.LENGTH_LONG).show();
-                        Intent intent = new Intent(MainActivity.this, PerfilUsuario.class);
+                        Intent intent = new Intent(MainActivity.this, MainMenu.class);
                         startActivity(intent);
                     }else{
                         Toast.makeText(MainActivity.this,   "No ha introducido correctamente los datos", Toast.LENGTH_LONG).show();
                     }
-                    }
-
-
-
+                }
             }
         });
 
     }
-
-
 }
